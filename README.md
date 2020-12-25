@@ -15,3 +15,12 @@ yarn start
 
 open http://localhost:3000
 ```
+
+# Angular
+
+```
+yarn install
+yarn start
+
+open http://localhost:3200
+```
