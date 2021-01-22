@@ -27,7 +27,7 @@
     "build": "webpack",
     "lint:ts": "tsc --noEmit",
     "test": "jest",
-    "serve": "webpack serve --config ./webpack.config.js"
+    "serve": "webpack serve"
   },
   "dependencies": {
     "jquery": "^3.5.1",

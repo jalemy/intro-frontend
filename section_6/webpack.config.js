@@ -12,9 +12,7 @@ module.exports = {
   },
   devServer: {
     contentBase: __dirname,
-    liveReload: true,
-    hot: true,
-    watchContentBase: true,
+    publicPath: '/dist/',
     port: 5000
   },
   module: {
