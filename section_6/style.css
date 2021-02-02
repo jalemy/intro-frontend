@@ -75,7 +75,14 @@ body {
 
 /* レビューリスト */
 .review {
+}
+
+.review--hide {
   display: none;
+}
+
+.review--show {
+  display: block;
 }
 
 .review__list {
