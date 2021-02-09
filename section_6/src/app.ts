@@ -1,6 +1,6 @@
 import $ from 'jquery'
-import createBookReview from './createBookReview.ts'
-import appendBook from './appendBook.ts'
+import createBookReview from './createBookReview'
+import appendBook from './appendBook'
 
 import './app.tsx'
 
