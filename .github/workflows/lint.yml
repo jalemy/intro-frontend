@@ -6,9 +6,13 @@ jobs:
   lint-and-test:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: section_6
+
     strategy:
       matrix:
-        node-version: [12.x, 13.x]
+        node-version: [12.x]
 
     steps:
       - uses: actions/checkout@v1
