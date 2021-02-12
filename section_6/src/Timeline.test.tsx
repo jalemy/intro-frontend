@@ -6,7 +6,6 @@ import { mount } from 'enzyme'
 import Timeline from './timeline'
 
 describe('<Timeline>', () => {
-
   test('should return <h2> element', async () => {
     await act(async () => {
       const wrapper = mount(<Timeline />)
