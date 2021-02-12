@@ -1,5 +1,5 @@
 import {Book} from './app'
-import createBookReview from './createBookReview.ts'
+import createBookReview from './createBookReview'
 import $ from 'jquery'
 
 export default function appendBook(book: Book) {
@@ -29,5 +29,5 @@ export default function appendBook(book: Book) {
           '</div>' +
         '</li>'
       ))
-    
+
 }
